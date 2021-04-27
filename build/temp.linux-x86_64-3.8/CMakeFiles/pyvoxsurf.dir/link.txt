@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -DVERSION_INFO=\"1.0.6\" -O3 -DNDEBUG -flto -shared  -o ../lib.linux-x86_64-3.8/pyvoxsurf.cpython-38-x86_64-linux-gnu.so CMakeFiles/pyvoxsurf.dir/src/pyvoxsurf/pyvoxsurf.cpp.o  libvoxelizer.a lib/LibSL-small/libLibSL.a -lpng -ljpeg -lpthread /usr/lib/x86_64-linux-gnu/libz.so 

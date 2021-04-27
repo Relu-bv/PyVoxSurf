@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvoxelizer.a CMakeFiles/voxelizer.dir/src/pyvoxsurf/voxelizer.cpp.o
-/usr/bin/ranlib libvoxelizer.a
