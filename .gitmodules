@@ -1,0 +1,18 @@
+[submodule "lib/LibSL-small"]
+	path = lib/LibSL-small
+	url = https://github.com/sylefeb/LibSL-small.git
+[submodule "lib/xtensor"]
+	path = lib/xtensor
+	url = https://github.com/xtensor-stack/xtensor.git
+[submodule "lib/xtensor-blas"]
+	path = lib/xtensor-blas
+	url = https://github.com/xtensor-stack/xtensor-blas.git
+[submodule "lib/xtl"]
+	path = lib/xtl
+	url = https://github.com/xtensor-stack/xtl.git
+[submodule "lib/pybind11"]
+	path = lib/pybind11
+	url = https://github.com/pybind/pybind11.git
+[submodule "lib/xtensor-python"]
+	path = lib/xtensor-python
+	url = https://github.com/xtensor-stack/xtensor-python.git
