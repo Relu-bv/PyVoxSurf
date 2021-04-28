@@ -1,4 +1,5 @@
-# PyVoxSurf
+# PyVoxSurf 
+Originally from: https://github.com/sylefeb/VoxSurf
 A Python C++ extension based on VoxSurf for voxelization of 3D meshes.
 
 **NOTE**: PyPi distribution is only compatible with Microsoft Windows
