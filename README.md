@@ -2,11 +2,35 @@
 Originally from: https://github.com/sylefeb/VoxSurf
 A Python C++ extension based on VoxSurf for voxelization of 3D meshes.
 
-**NOTE**: PyPi distribution is only compatible with Microsoft Windows
-
 ### Principle
  1. Rasterize triangles using three 2D axis aligned grids, using integer arithmetic (fixed floating point) for robust triangle interior checks
  2. [Optional] Fill interior of voxelized surface with either of two schemes: **Inside** - fastest method evaluates whether a voxel is inside from only one direction or **Robust** - evaluates whether a voxel is inside from all three directions and a voting determines final status
+
+## Installation For RELU
+For VirtualEnv: prerequisites: LibSSL, Cmake, libjpg,libpng
+```
+  sudo apt-get install libssl-dev
+  sudo apt-get install libjpeg-dev
+  sudo apt-get install libpng-dev
+  wget https://github.com/Kitware/CMake/releases/download/v3.17.3/cmake-3.17.3.tar.gz
+  tar -zxvf cmake-3.17.3.tar.gz
+  cd cmake-3.17.3
+  sudo ./bootstrap
+  sudo make
+  sudo make install
+```
+Activate your virtual environment
+```
+  pip install git+ssh://git@github.com/Relu-bv/PyVoxSurf.git
+```
+If that does not work, you can try to clone the repo and install it from python
+```
+git clone git@github.com:Relu-bv/PyVoxSurf.git
+git submodule update --init
+source <env>/bin/activate
+python setup.py install
+```
+
 
 ## Usage
 
